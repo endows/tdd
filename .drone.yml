@@ -8,4 +8,4 @@ script:
   - export PHANTOMJS_BIN=$(which phantomjs)
   - meteor run --test
 services:
-  - bradrydzewski/mongodb
+  - tutum/mongodb
