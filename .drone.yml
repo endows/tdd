@@ -1,4 +1,4 @@
-image: node0.10
+image: bradrydzewski/node:0.10
 env:
   - MONGO_URL=mongodb://localhost:27017/tdd
   - JASMINE_BROWSER=PhantomJS
