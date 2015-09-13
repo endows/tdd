@@ -4,7 +4,6 @@ script:
   - curl https://install.meteor.com/ | sh
   - export PHANTOMJS_BIN=$(which phantomjs)
   - export JASMINE_BROWSER=PhantomJS
-  # - export MONGO_URL=mongodb://localhost:27017/tdd
   - meteor run --test
 services:
   - mongodb
