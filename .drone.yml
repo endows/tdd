@@ -3,3 +3,4 @@ image: endotakashi1992/meteor-ci
 #   - .meteor
 script:
   - PHANTOMJS_BIN=$(which phantomjs) JASMINE_BROWSER=PhantomJS meteor run --test
+  - exit
