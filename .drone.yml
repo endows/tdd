@@ -1,9 +1,9 @@
-image: node:0.10
+image: endotakashi1992/meteor-ci
 script:
-  - npm i -g phantomjs
-  - curl https://install.meteor.com/ | sh
-  - export PHANTOMJS_BIN=$(which phantomjs)
-  - export JASMINE_BROWSER=PhantomJS
+  # - npm i -g phantomjs
+  # - curl https://install.meteor.com/ | sh
+  # - export PHANTOMJS_BIN=$(which phantomjs)
+  # - export JASMINE_BROWSER=PhantomJS
   - meteor run --test
 services:
   - mongodb
