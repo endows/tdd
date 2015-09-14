@@ -2,4 +2,4 @@ image: endotakashi1992/meteor-ci
 # cache:
 #   - .meteor
 script:
-  - meteor run --test
+  - DEBUG=1 JASMINE_DEBUG=1 VELOCITY_DEBUG=1 VELOCITY_DEBUG_MIRROR=1 meteor run --test
