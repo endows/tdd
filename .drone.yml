@@ -1,5 +1,5 @@
 image: endotakashi1992/meteor-ci
-cache:
-  - .meteor
+# cache:
+#   - .meteor
 script:
   - meteor run --test
